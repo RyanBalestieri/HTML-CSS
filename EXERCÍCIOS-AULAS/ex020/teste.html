@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste ae</title>
+
+    <style>
+        .imagem{
+  background-image: url(http://i.stack.imgur.com/lvici.jpg);  
+  height:300px;
+  width:400px;
+  background-size:100% auto;
+}
+
+.texto{
+  padding:20px;
+  font-family:Arial;
+  text-align:center;
+  color:white;
+  opacity:0;
+  transition: opacity .2s linear;
+  background-color:rgba(0,0,0,.7);
+}
+
+.imagem:hover .texto{
+  opacity:1;
+ }
+    </style>
+</head>
+<body>
+    <div class="imagem">
+        <div class="texto"><h2>Recém casados</h2></div>
+      </div>
+</body>
+</html>

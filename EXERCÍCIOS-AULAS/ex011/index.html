@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures</title>
+</head>
+<body>
+    <H1>Imagens Dinâmicas</H1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="picture/img-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="picture/img-700.jpg" type="image/jpg">
+        <img src="picture/img-1000.jpg" alt="Imagem flexível">
+    </picture>
+
+    <h1>Testando os áudios</h1>
+    <p>Dream On - AeroSmith</p>
+    <audio preload="metadata" src="media/dream on.mp3" controls autoplay  >
+        <a href="media/efeito sonoro.mp3" type="audio/mpeg"> Teste de download</a>
+    </audio>
+    <p>Sonoplastia Rodrigo Faro</p>
+    <audio preload="metadata" src="media/efeito sonoro.mp3" controls autoplay></audio>
+
+</body>
+</html>

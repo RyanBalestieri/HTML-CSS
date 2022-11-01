@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            background-color: lightpink;
+            border: 1px solid black;
+            text-align: center ;
+        }
+        div > p{
+            display:none;
+        }
+        div > div#D1{
+            display:none;
+        }
+        div:hover > p{
+            display: block;
+            color: brown;  
+            height:200px;
+            width:200px;
+            background-size:100% auto;
+        }
+        div:hover > div#D1{
+            display: block;
+        }
+        div#D1{
+            display: block;
+            color: brown;
+            background-image: url(logo-css-200.png);  
+            height:200px;
+            width:200px;
+            background-size:100% auto;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        DIV01
+        <p>TEXTO ESCONDIDO</p>
+        <div id="D1" >
+        </div>
+    </div>
+    <div id="D2"> 
+        DIV02 
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <div id="D3"> 
+        DIV03 
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+</body>
+</html>
