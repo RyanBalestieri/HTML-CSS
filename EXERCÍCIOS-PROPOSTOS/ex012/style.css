@@ -85,7 +85,7 @@ header a:hover{
     color: white;
     text-shadow: 1px 1px 0px black;
     padding: 5px;
-    max-width: 350px;
+    width: 45%;
     display: block;
 }
 #img-03 p{
@@ -93,7 +93,7 @@ header a:hover{
     color: white;
     text-shadow: 1px 1px 0px black;
     padding: 5px;
-    max-width: 350px;
+    width: 45%;
     display: block;
 }
 footer{
